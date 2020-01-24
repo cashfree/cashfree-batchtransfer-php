@@ -15,8 +15,8 @@ Please enter your clientId and clientSecret, along with the appropriate enviornm
 
 
 #default values
-$clientId = "CF27JBMB8GN4CHAQI6Q";
-$clientSecret = "fd48e5a6084d611e4fd9c6f0f8fcbca16d221ace";
+$clientId = "client_id";
+$clientSecret = "client_secret";
 $env = "test";
 
 #config objs
