@@ -41,8 +41,8 @@ The kit reads the batchTransfer details from the index.php file. Under the Batch
 Sample Fields to add a beneficiary using bankAccount and ifsc:
   1. batchTransferId: uniqueId of the batch transfer.
   2. batchFormat: format of the batch transfer, accepted values: BANK_ACCOUNT and BENEFICIARY_ID.
-  3. deleteBene: optional field, needed if the batch format is bank account, to delete beneficiaries that already exist with same account details but different names. If set will delete and readd the beneficiary, else will throw an error.
-  4. batch: array of transfers to be done.
+  3. deleteBene: optional field, needed if the batch format is bank account, to delete beneficiaries that already exist with the same account details but different names. If set will delete and readd the beneficiary, else will throw an error.
+  4. batch: an array of transfers to be done.
   
   Batch format for BANK_TRANSFER:
   
