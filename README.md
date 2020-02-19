@@ -36,7 +36,8 @@ Your IP has to be whitelisted to hit Cashfree's server. For more information ple
 ### Batch Transfer:
 The following kit needs batch transfer details in order to create a batch transfer.
 The kit reads the batchTransfer details from the index.php file. Under the BatchTransfer section. For a list of required fields go [here](https://dev.cashfree.com/api-reference/payouts-api#batch-transfer).
-Sample Fields to add a beneficiary using bankAccount and ifsc:
+
+Sample Fields to add a beneficiary using bankAccount and ifsc are:
   1. batchTransferId: uniqueId of the batch transfer.
   2. batchFormat: format of the batch transfer, accepted values: BANK_ACCOUNT and BENEFICIARY_ID.
   3. deleteBene: optional field, needed if the batch format is bank account, to delete beneficiaries that already exist with the same account details but different names. If set will delete and readd the beneficiary, else will throw an error.
