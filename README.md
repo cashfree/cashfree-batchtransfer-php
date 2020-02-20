@@ -31,7 +31,7 @@ and add the relevant details:
 
 ### IP Whitelisting:
 
-Your IP has to be whitelisted to hit Cashfree's server. For more information please go [here](https://dev.cashfree.com/development/api/credentials).
+Your IP has to be whitelisted to hit Cashfree's server. For more information please go [here](https://dev.cashfree.com/development/api/ip-whitelisting).
 
 ### Batch Transfer:
 The following kit needs batch transfer details in order to create a batch transfer.
